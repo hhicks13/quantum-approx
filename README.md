@@ -1,4 +1,4 @@
-# quantum-approximation #
+# Quantum-Approximation Project #
 - - -
 ## how to update this repository ##
 1. create an empty folder in your local machine
