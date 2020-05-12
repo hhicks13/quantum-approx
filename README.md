@@ -17,3 +17,4 @@ because this isnt a large scale project, I doubt we will have multiple branches.
 - - -
 ## misc. ##
 + other useful commands are `git pull`, but I am not sure when you would need to use it.
++ heres a cheat sheet: https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
