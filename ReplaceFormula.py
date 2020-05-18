@@ -67,7 +67,7 @@ def main():
     # NAME OF OUTPUT FILES PRODUCED BY THIS PROGRAM
     #
     
-    COUENNE_SOLVER_INPUT_FILE_NAME = "formatted_couenne_input_file";
+    COUENNE_SOLVER_INPUT_FILE_NAME = "my_model.mod";
     COUENNE_SOLVER_OUTPUT_FILE_NAME = "couenne_solved";
     
     #
