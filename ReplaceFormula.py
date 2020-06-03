@@ -14,6 +14,7 @@
 import re
 import sys
 import os
+import time
 
 #
 #---------------------------------------
@@ -67,7 +68,7 @@ def main():
     # NAME OF OUTPUT FILES PRODUCED BY THIS PROGRAM
     #
     
-    COUENNE_SOLVER_INPUT_FILE_NAME = "my_model.mod";
+    COUENNE_SOLVER_INPUT_FILE_NAME = ".mod";
     COUENNE_SOLVER_OUTPUT_FILE_NAME = "couenne_solved";
     
     #
@@ -110,7 +111,10 @@ def main():
     #
     
     p_string = str(p_integer)
-    ofo = prepend_to_file(COUENNE_SOLVER_INPUT_FILE_NAME,p_string) # PREPENDS FILE FOR COUENNE
+    f_name_arg = str(sys.argv[1]).split('.')
+    timestr = time.strftime("%H%M%S_%Y-%m-%d")
+    f_name_time = str(timestr + "_" + f_name_arg[0] + COUENNE_SOLVER_INPUT_FILE_NAME)
+    ofo = prepend_to_file(f_name_time,p_string) # PREPENDS FILE FOR COUENNE
     #  returns OPEN FILE OBJECT that should be closed
 
     #
@@ -149,7 +153,7 @@ def main():
     #-------------------------------------------------------------------------
     #
 
-    os.system("cat {}".format(COUENNE_SOLVER_INPUT_FILE_NAME))
+    os.system("cat {}".format(f_name_time))
 
 if __name__ == "__main__":
     #
