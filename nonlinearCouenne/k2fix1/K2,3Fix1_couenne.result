@@ -1,0 +1,153 @@
+[3J[H[2J<> ARGUMENT COUNT
+<0>  ./nonlinsol.py
+<1>  objex.py
+Couenne 0.5.8 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+Mailing list: couenne@list.coin-or.org
+Instructions: http://www.coin-or.org/Couenne
+couenne: 
+ANALYSIS TEST: Couenne: new cutoff value -6.2500000000e-02 (0.020836 seconds)
+NLP0012I 
+              Num      Status      Obj             It       time                 Location
+NLP0014I             1         OPT -0.13040226        6 0.010061
+Couenne: new cutoff value -1.3040225750e-01 (0.034454 seconds)
+Loaded instance "/tmp/tmpzaofx6f_.pyomo.nl"
+Constraints:            0
+Variables:              2 (0 integer)
+Auxiliaries:           98 (0 integer)
+
+Coin0506I Presolve 90 (-50) rows, 50 (-50) columns and 274 (-74) elements
+Clp0006I 0  Obj -0.23046875 Primal inf 262.85498 (35)
+Clp0006I 40  Obj -0.23046875 Primal inf 3.3552817 (2)
+Clp0006I 44  Obj -0.23046875
+Clp0000I Optimal - objective value -0.23046875
+Clp0032I Optimal objective -0.23046875 - 44 iterations time 0.002, Presolve 0.00
+Clp0000I Optimal - objective value -0.23046875
+Cbc0012I Integer solution of -0.13040226 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+NLP Heuristic: NLP0014I             2         OPT -0.07930815        4 0.008034
+no solution.
+Clp0000I Optimal - objective value -0.23046875
+Optimality Based BT: 0 improved bounds
+Probing: 20 improved bounds
+NLP Heuristic: no solution.
+Cbc0031I 1 added rows had average density of 2
+Cbc0013I At root node, 1 cuts changed objective from -0.23046875 to -0.23046875 in 2 passes
+Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 8 row cuts average 2.0 elements, 71 column cuts (71 active)
+Cbc0010I After 0 nodes, 1 on tree, -0.13040226 best solution, best possible -0.23046875 (0.13 seconds)
+Optimality Based BT: 0 improved bounds
+Optimality Based BT: 0 improved bounds
+Optimality Based BT: 1 improved bounds
+Optimality Based BT: 1 improved bounds
+Optimality Based BT: 1 improved bounds
+Optimality Based BT: 2 improved bounds
+Optimality Based BT: 1 improved bounds
+Optimality Based BT: 1 improved bounds
+Optimality Based BT: 0 improved bounds
+Optimality Based BT: 0 improved bounds
+Optimality Based BT: 1 improved bounds
+Optimality Based BT: 2 improved bounds
+Cbc0010I After 100 nodes, 38 on tree, -0.13040226 best solution, best possible -0.23039749 (3.52 seconds)
+Optimality Based BT: 2 improved bounds
+Cbc0010I After 200 nodes, 71 on tree, -0.13040226 best solution, best possible -0.22981204 (5.91 seconds)
+Cbc0010I After 300 nodes, 103 on tree, -0.13040226 best solution, best possible -0.22873161 (7.87 seconds)
+Optimality Based BT: 2 improved bounds
+Cbc0010I After 400 nodes, 132 on tree, -0.13040226 best solution, best possible -0.22601154 (9.46 seconds)
+Optimality Based BT: 4 improved bounds
+Cbc0010I After 500 nodes, 157 on tree, -0.13040226 best solution, best possible -0.22452924 (10.90 seconds)
+Cbc0010I After 600 nodes, 180 on tree, -0.13040226 best solution, best possible -0.22190052 (12.56 seconds)
+Cbc0010I After 700 nodes, 200 on tree, -0.13040226 best solution, best possible -0.21980289 (14.19 seconds)
+Cbc0010I After 800 nodes, 219 on tree, -0.13040226 best solution, best possible -0.21736077 (15.97 seconds)
+Cbc0010I After 900 nodes, 236 on tree, -0.13040226 best solution, best possible -0.21421154 (16.55 seconds)
+Cbc0010I After 1000 nodes, 251 on tree, -0.13040226 best solution, best possible -0.2112947 (17.08 seconds)
+Cbc0010I After 1100 nodes, 260 on tree, -0.13040226 best solution, best possible -0.20914126 (17.68 seconds)
+Cbc0010I After 1200 nodes, 275 on tree, -0.13040226 best solution, best possible -0.20634516 (18.20 seconds)
+Cbc0010I After 1300 nodes, 293 on tree, -0.13040226 best solution, best possible -0.20465276 (18.84 seconds)
+Cbc0010I After 1400 nodes, 300 on tree, -0.13040226 best solution, best possible -0.20089206 (20.23 seconds)
+Optimality Based BT: 2 improved bounds
+Optimality Based BT: 4 improved bounds
+Cbc0010I After 1500 nodes, 305 on tree, -0.13040226 best solution, best possible -0.19913216 (21.29 seconds)
+Optimality Based BT: 2 improved bounds
+Cbc0010I After 1600 nodes, 315 on tree, -0.13040226 best solution, best possible -0.19800199 (21.81 seconds)
+Cbc0010I After 1700 nodes, 320 on tree, -0.13040226 best solution, best possible -0.19532916 (22.33 seconds)
+Cbc0010I After 1800 nodes, 324 on tree, -0.13040226 best solution, best possible -0.19226091 (23.33 seconds)
+Cbc0010I After 1900 nodes, 327 on tree, -0.13040226 best solution, best possible -0.18979043 (24.71 seconds)
+Cbc0010I After 2000 nodes, 336 on tree, -0.13040226 best solution, best possible -0.1878331 (25.94 seconds)
+Cbc0010I After 2100 nodes, 346 on tree, -0.13040226 best solution, best possible -0.18664712 (27.19 seconds)
+Cbc0010I After 2200 nodes, 340 on tree, -0.13040226 best solution, best possible -0.18268642 (28.57 seconds)
+Cbc0010I After 2300 nodes, 335 on tree, -0.13040226 best solution, best possible -0.18023348 (29.91 seconds)
+Cbc0010I After 2400 nodes, 340 on tree, -0.13040226 best solution, best possible -0.17754738 (30.96 seconds)
+Cbc0010I After 2500 nodes, 337 on tree, -0.13040226 best solution, best possible -0.17511098 (32.10 seconds)
+Cbc0010I After 2600 nodes, 333 on tree, -0.13040226 best solution, best possible -0.17310282 (33.15 seconds)
+Cbc0010I After 2700 nodes, 336 on tree, -0.13040226 best solution, best possible -0.17172909 (34.35 seconds)
+Optimality Based BT: 3 improved bounds
+Cbc0010I After 2800 nodes, 331 on tree, -0.13040226 best solution, best possible -0.16940576 (35.42 seconds)
+Cbc0010I After 2900 nodes, 316 on tree, -0.13040226 best solution, best possible -0.16612754 (36.21 seconds)
+Cbc0010I After 3000 nodes, 305 on tree, -0.13040226 best solution, best possible -0.16335474 (36.88 seconds)
+Cbc0010I After 3100 nodes, 292 on tree, -0.13040226 best solution, best possible -0.16042687 (37.40 seconds)
+Cbc0010I After 3200 nodes, 267 on tree, -0.13040226 best solution, best possible -0.15747461 (38.04 seconds)
+Optimality Based BT: 2 improved bounds
+Cbc0010I After 3300 nodes, 240 on tree, -0.13040226 best solution, best possible -0.15383081 (38.76 seconds)
+Cbc0010I After 3400 nodes, 218 on tree, -0.13040226 best solution, best possible -0.15140571 (39.58 seconds)
+Cbc0010I After 3500 nodes, 206 on tree, -0.13040226 best solution, best possible -0.14945084 (40.59 seconds)
+Cbc0010I After 3600 nodes, 188 on tree, -0.13040226 best solution, best possible -0.14788176 (41.62 seconds)
+Cbc0010I After 3700 nodes, 163 on tree, -0.13040226 best solution, best possible -0.14528714 (42.47 seconds)
+Cbc0010I After 3800 nodes, 150 on tree, -0.13040226 best solution, best possible -0.14302769 (43.47 seconds)
+Cbc0010I After 3900 nodes, 127 on tree, -0.13040226 best solution, best possible -0.14025252 (44.41 seconds)
+Cbc0010I After 4000 nodes, 123 on tree, -0.13040226 best solution, best possible -0.13833808 (45.45 seconds)
+Cbc0010I After 4100 nodes, 114 on tree, -0.13040226 best solution, best possible -0.13612244 (46.48 seconds)
+Cbc0010I After 4200 nodes, 93 on tree, -0.13040226 best solution, best possible -0.13356686 (47.33 seconds)
+Cbc0010I After 4300 nodes, 106 on tree, -0.13040226 best solution, best possible -0.13282547 (48.43 seconds)
+Cbc0010I After 4400 nodes, 114 on tree, -0.13040226 best solution, best possible -0.13237112 (49.50 seconds)
+Cbc0010I After 4500 nodes, 124 on tree, -0.13040226 best solution, best possible -0.13199923 (50.62 seconds)
+Cbc0010I After 4600 nodes, 129 on tree, -0.13040226 best solution, best possible -0.13170803 (51.73 seconds)
+Cbc0010I After 4700 nodes, 141 on tree, -0.13040226 best solution, best possible -0.13147826 (52.82 seconds)
+Cbc0010I After 4800 nodes, 142 on tree, -0.13040226 best solution, best possible -0.13134409 (53.87 seconds)
+Cbc0010I After 4900 nodes, 146 on tree, -0.13040226 best solution, best possible -0.13120255 (54.88 seconds)
+Cbc0010I After 5000 nodes, 151 on tree, -0.13040226 best solution, best possible -0.13098159 (55.90 seconds)
+Cbc0010I After 5100 nodes, 157 on tree, -0.13040226 best solution, best possible -0.13079363 (56.98 seconds)
+Cbc0010I After 5200 nodes, 159 on tree, -0.13040226 best solution, best possible -0.13072752 (57.97 seconds)
+Cbc0010I After 5300 nodes, 171 on tree, -0.13040226 best solution, best possible -0.1306826 (59.04 seconds)
+Cbc0010I After 5400 nodes, 162 on tree, -0.13040226 best solution, best possible -0.13062175 (60.02 seconds)
+Cbc0010I After 5500 nodes, 161 on tree, -0.13040226 best solution, best possible -0.13057112 (61.00 seconds)
+Cbc0010I After 5600 nodes, 159 on tree, -0.13040226 best solution, best possible -0.13053437 (62.07 seconds)
+Cbc0010I After 5700 nodes, 156 on tree, -0.13040226 best solution, best possible -0.13050812 (63.10 seconds)
+Cbc0010I After 5800 nodes, 155 on tree, -0.13040226 best solution, best possible -0.1304897 (64.10 seconds)
+Cbc0010I After 5900 nodes, 158 on tree, -0.13040226 best solution, best possible -0.13047454 (65.20 seconds)
+Cbc0010I After 6000 nodes, 146 on tree, -0.13040226 best solution, best possible -0.13046136 (66.20 seconds)
+Cbc0010I After 6100 nodes, 143 on tree, -0.13040226 best solution, best possible -0.13045523 (67.32 seconds)
+Cbc0010I After 6200 nodes, 126 on tree, -0.13040226 best solution, best possible -0.13044481 (68.23 seconds)
+Cbc0010I After 6300 nodes, 110 on tree, -0.13040226 best solution, best possible -0.13043818 (69.24 seconds)
+Cbc0010I After 6400 nodes, 90 on tree, -0.13040226 best solution, best possible -0.13043209 (70.15 seconds)
+Cbc0010I After 6500 nodes, 65 on tree, -0.13040226 best solution, best possible -0.13042292 (71.10 seconds)
+Cbc0010I After 6600 nodes, 34 on tree, -0.13040226 best solution, best possible -0.13041711 (71.91 seconds)
+Cbc0001I Search completed - best objective -0.1304022574951732, took 204727 iterations and 6696 nodes (72.66 seconds)
+Cbc0035I Maximum depth 39, 0 variables fixed on reduced cost
+
+ 	"Finished"
+
+Linearization cuts added at root node:        140
+Linearization cuts added in total:            140  (separation time: 0.001054s)
+Total solve time:                         72.6702s (72.6702s in branch-and-bound)
+Lower bound:                            -0.130402
+Upper bound:                            -0.130402  (gap: 0.00%)
+Branch-and-bound nodes:                      6696
+Performance of                           FBBT:	    3.72737s,    12809 runs. fix:          0 shrnk:    1.60904 ubd:          0 2ubd:          0 infeas:        130
+Performance of                           OBBT:	   0.174193s,       21 runs. fix:          0 shrnk:     8.5059 ubd:          0 2ubd:          0 infeas:          0
+Model unknown
+
+  Variables:
+    s : Nonnegative
+        Size=1, Index=None
+        Key  : Lower : Value              : Upper             : Fixed : Stale : Domain
+        None :     0 : 2.1122371511131375 : 6.283185307179586 : False : False : NonNegativeReals
+    t : Nonnegative
+        Size=1, Index=None
+        Key  : Lower : Value             : Upper             : Fixed : Stale : Domain
+        None :     0 : 5.401049163775491 : 6.283185307179586 : False : False : NonNegativeReals
+
+  Objectives:
+    obj : Size=1, Index=None, Active=True
+        Key  : Active : Value
+        None :   True : 0.13040225749517328
+
+  Constraints:
+    None
