@@ -33,6 +33,7 @@ import re
 import sys
 import os
 import time
+import numpy
 
 #
 #---------------------------------------
@@ -121,10 +122,10 @@ def main():
             ### CHANGE 3 to PI ###
 
             model.s = Var(within=NonNegativeReals,
-                          bounds=(0,3),
+                          bounds=(0,2*numpy.pi),
                           doc='Nonnegative')
             model.t = Var(within=NonNegativeReals,
-                          bounds=(0,3),
+                          bounds=(0,2*numpy.pi),
                           doc='Nonnegative')
             model.obj = Objective(rule=nonlinear_objective_function_expression,
                                   sense = minimize)
