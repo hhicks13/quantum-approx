@@ -1,0 +1,1 @@
+(150-8 Cos[4 s]-14 Cos[8 s]-88 Cos[4 (s-t)]+5 Cos[8 (s-t)]-8 Cos[4 t]-14 Cos[8 t]+88 Cos[4 (s+t)]+Cos[8 (s+t)]+8 Cos[4 (2 s+t)]+8 Cos[4 (s+2 t)])/2048

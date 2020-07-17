@@ -1,0 +1,1 @@
+1/256 (28-6 Cos[2 s]+4 Cos[4 s]+6 Cos[6 s]-3 Cos[6 s-8 t]-4 Cos[4 s-6 t]+3 Cos[2 (s-4 t)]+4 Cos[2 (s-3 t)]-2 Cos[4 (s-2 t)]-4 Cos[4 s-2 t]+12 Cos[6 s-2 t]+4 Cos[2 (s-t)]-4 Cos[6 (s-t)]+4 Cos[8 t]-4 Cos[2 (s+t)]+4 Cos[6 (s+t)]+4 Cos[2 (2 s+t)]-12 Cos[2 (3 s+t)]-2 Cos[4 (s+2 t)]-4 Cos[2 (s+3 t)]+3 Cos[2 (s+4 t)]+4 Cos[4 s+6 t]-3 Cos[6 s+8 t])
