@@ -61,8 +61,17 @@ def parse_input_data_after_read(_ifo_read):
     data = re.sub(r'([\+\-])', r' \1 ', data)
     data = data.replace("*s", "*m.s")
     data +=";"
+
+    #trim off the leading term and insert multiplication sign
+    reg1 = '\(.*?\)'
+    coef = re.findall(reg1,data)[0]
+    l = len(coef)
+    data = coef + '*' + data[l:]
+    
+
     return data;
     #ofo.write(data+";")
+    
     
 #
 #-------------------------------------------------------------------
