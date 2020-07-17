@@ -13,7 +13,9 @@
 ### 1.3. define the objective function based on input file, (python function)
 ### 2. create a nonlinear objective function and write to objex.py
 ### 3. pass resulting output formatted file to coenne solver as rule
-
+#
+#
+# https://pyomo.readthedocs.io/en/stable/developer_reference/expressions/performance.html
 
 
 
@@ -71,6 +73,7 @@ def prepend_to_file(_outputFile):
     """this couenne formatting code is copied from previous source, might contain issues """
     """RETURNS A FILE OBJECT THAT SHOULD BE CLOSED """
     ofo = open(_outputFile, "w")
+    ofo.write("from pyomo.environ import *\n")
     ofo.write("def nonlinear_objective_function_expression(m):\n")
 
     # returns an open file #
