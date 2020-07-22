@@ -1,0 +1,81 @@
+[3J[H[2J<> ARGUMENT COUNT
+<0>  ./pyomo-nonlinsol.py
+
+<1>  test_graph.qaoa
+
+<2>  3
+
+< > processing test_graph.qaoa
+
+< > edges: [(0, 2), (1, 2)]
+Couenne 0.5.8 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+Mailing list: couenne@list.coin-or.org
+Instructions: http://www.coin-or.org/Couenne
+couenne: 
+ANALYSIS TEST: Couenne: new cutoff value -1.0000000000e+00 (0 seconds)
+NLP0012I 
+              Num      Status      Obj             It       time                 Location
+NLP0014I             1         OPT -1.6495191       15 0.005534
+Couenne: new cutoff value -1.6495190528e+00 (0.005605 seconds)
+Loaded instance "/tmp/tmp6u81ggg0.pyomo.nl"
+Constraints:            0
+Variables:              2 (0 integer)
+Auxiliaries:            8 (0 integer)
+
+Coin0506I Presolve 18 (-3) rows, 7 (-3) columns and 42 (-6) elements
+Clp0006I 0  Obj -1.6492541 Primal inf 8.436214 (5) Dual inf 0.64841878 (1)
+Clp0006I 4  Obj -2
+Clp0000I Optimal - objective value -2
+Clp0032I Optimal objective -2 - 4 iterations time 0.002, Presolve 0.00
+Clp0000I Optimal - objective value -2
+Cbc0012I Integer solution of -1.6495191 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+NLP Heuristic: NLP0014I             2         OPT -1.6495191       15 0.010592
+no solution.
+Clp0000I Optimal - objective value -2
+Optimality Based BT: 0 improved bounds
+Probing: 6 improved bounds
+NLP Heuristic: no solution.
+Cbc0031I 4 added rows had average density of 2.5
+Cbc0013I At root node, 4 cuts changed objective from -2 to -1.6630758 in 2 passes
+Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 8 row cuts average 2.5 elements, 1 column cuts (1 active)
+Cbc0010I After 0 nodes, 1 on tree, -1.6495191 best solution, best possible -1.6630758 (0.03 seconds)
+Optimality Based BT: 0 improved bounds
+Optimality Based BT: 0 improved bounds
+Optimality Based BT: 1 improved bounds
+Optimality Based BT: 2 improved bounds
+Optimality Based BT: 1 improved bounds
+Optimality Based BT: 0 improved bounds
+Optimality Based BT: 0 improved bounds
+Optimality Based BT: 0 improved bounds
+Cbc0001I Search completed - best objective -1.649519052838329, took 181 iterations and 30 nodes (0.10 seconds)
+Cbc0035I Maximum depth 4, 0 variables fixed on reduced cost
+
+ 	"Finished"
+
+Linearization cuts added at root node:         21
+Linearization cuts added in total:             21  (separation time: 6.7e-05s)
+Total solve time:                        0.096776s (0.096775s in branch-and-bound)
+Lower bound:                             -1.64952
+Upper bound:                             -1.64952  (gap: 0.00%)
+Branch-and-bound nodes:                        30
+Performance of                           FBBT:	   0.000999s,       53 runs. fix:          0 shrnk:   0.797073 ubd:          0 2ubd:          0 infeas:          0
+Performance of                           OBBT:	   0.009962s,        9 runs. fix:          0 shrnk:    2.30376 ubd:          0 2ubd:          0 infeas:          0
+Model unknown
+
+  Variables:
+    s : Nonnegative
+        Size=1, Index=None
+        Key  : Lower : Value               : Upper             : Fixed : Stale : Domain
+        None :     0 : 0.39269908170101114 : 6.283185307179586 : False : False : NonNegativeReals
+    t : Nonnegative
+        Size=1, Index=None
+        Key  : Lower : Value            : Upper             : Fixed : Stale : Domain
+        None :     0 : 1.04719755118045 : 6.283185307179586 : False : False : NonNegativeReals
+
+  Objectives:
+    obj : Size=1, Index=None, Active=True
+        Key  : Active : Value
+        None :   True : 1.649519052838329
+
+  Constraints:
+    None
