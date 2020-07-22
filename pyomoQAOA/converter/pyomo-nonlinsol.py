@@ -65,7 +65,7 @@ def main():
         if sys.argv[1].endswith('.qaoa'):
             import qaoa_graph
             os.system("clear")
-            print("processing {}\n".format(graph_file.name))
+            print("< > processing {}\n".format(graph_file.name))
             m = ConcreteModel()
             ### ###
             m.s = Var(within=NonNegativeReals,
@@ -78,7 +78,7 @@ def main():
             m.obj = Objective(expr = 0.0, sense = maximize)
             ### ###
             edges = Read_in_graph_dreadnaught(graph_file.name,n_vertices)
-            print('edges:',edges)
+            print('< > edges:',edges)
             subgraph_list = qaoa_graph.CountSubgraphs(edges)
             ### ###
 
